@@ -1,1 +1,27 @@
+# AI-OCHSMS Mock Code
+# This is pseudocode showing how the system would work
 
+# Function to predict patient schedule
+def predict_patient_schedule(patient_data):
+    prediction = AI_model(patient_data)  # Placeholder for AI logic
+    return prediction
+
+# Function to create a new patient entry
+def add_patient(patient_name, age, medical_history):
+    patient = {
+        "name": patient_name,
+        "age": age,
+        "history": medical_history
+    }
+    database.append(patient)
+    return patient
+
+# Main workflow (simplified)
+def main():
+    patient_data = {"name": "John Doe", "age": 45, "history": ["diabetes"]}
+    add_patient(patient_data["name"], patient_data["age"], patient_data["history"])
+    schedule = predict_patient_schedule(patient_data)
+    print("Predicted Schedule:", schedule)
+
+if __name__ == "__main__":
+    main()
