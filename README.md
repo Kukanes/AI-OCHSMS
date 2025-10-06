@@ -9,10 +9,8 @@ AI-OCHSMS is a proposed AI-based system for scheduling and predictions in health
 
 ## Folder Structure
 - `MockCode/` : Contains pseudocode showing how the AI module and system workflow would function
-- `Screenshots/` : Contains UI wireframes and mock outputs (optional)
-- `Report/` : Contains the full assignment report including diagrams and design details
 
-## How the System Works (Simplified)
+## How the System Works 
 1. Patient data is added to the system.
 2. AI module analyzes data and predicts optimal schedules.
 3. Output is displayed to staff for scheduling decisions.
