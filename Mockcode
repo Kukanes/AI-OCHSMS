@@ -11,7 +11,7 @@ def add_patient(patient_name, age, medical_history):
     patient = {
         "name": patient_name,
         "age": age,
-        "history": medical_history
+        "gender": gender,
     }
     database.append(patient)
     return patient
